@@ -51,7 +51,7 @@ pip install opacus_dpcr
 ### 三、将科研成果与FATE框架结合
 
 #### 研发现状
-目前，已将FLDPCR框架与FATE平台深度整合，发布了FLDPCR4FATE项目（[GitHub链接](https://github.com/imcjp/FLDPCR4FATE)）。该项目提供了便捷的一键部署机制，方便联邦学习合作方应用，已在福州大学支持的服务器上展示了实际成果，访问地址：[https://fate.cityu.mo.cn](https://fate.cityu.mo.cn)。
+目前，已将FLDPCR框架与FATE平台深度整合，发布了[FLDPCR4FATE项目](https://github.com/imcjp/FLDPCR4FATE)。该项目提供了便捷的一键部署机制，方便联邦学习合作方应用，已在福州大学支持的服务器上展示了实际成果，访问地址：[https://fate.cityu.mo.cn](https://fate.cityu.mo.cn)。
 
 #### 后续战略规划
 1. **企业级技术整合挑战**：将进一步投入研发，解决技术整合的复杂性，推动成果正式融入FATE框架，计划与微众银行或清华大学AIR实验室开展合作。
