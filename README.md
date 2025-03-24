@@ -76,7 +76,7 @@ pip install opacus_dpcr
 
 目前，“**雲隧智聯**”已投入使用，用於支持前期的研發工作，並在和福州大學的合作中發揮關鍵作用。
 
-以下是實際應用的展示：[https://sec.cn.caijp.cn/](https://sec.cn.caijp.cn/)。網站頁面展示如下：
+以下是實際應用的展示：[https://sec.cn.caijp.cn/](https://sec.cn.caijp.cn/)。網站頁面展示如下（部分內容涉及隱私，故加馬賽克）：
 
 ![image](https://github.com/imcjp/FDCT2025/blob/main/figs/fig_sec_conn.jpg)
 
