@@ -20,6 +20,7 @@
 - [[TDSC 2024](https://ieeexplore.ieee.org/document/10426793)] **Cai Jianping**, Liu Ximeng, Ye Qingqing+, Liu Yang, Wang Yuyang, A Federated Learning Framework Based on Differentially Private Continuous Data Release[J]. IEEE Transactions on Dependable and Secure Computing , 21(5): 4879-4894, DOI: 10.1109/TDSC.2024.3364060. (**CCF A 類, JCR Q1, TOP**)
 - [[TIFS 2024](https://ieeexplore.ieee.org/document/10711967)] **Cai Jianping**, Ye Qingqing+, Haibo Hu, Liu Ximeng, and Yanggeng Fu, Boosting Accuracy of Differentially Private Continuous Data Release for Federated Learning[J]. IEEE Transactions on Information Forensics and Security, 19: 10287-10301, DOI: 10.1109/TIFS.2024.3477325. (**CCF A 類, JCR Q1, TOP**)
 
++項目顧問
 
 這些理論成果的核心貢獻包括：
 - **噪聲分佈的提出**：充分證明的定理 [Thm. 1 in TDSC 2023] 發現大量差分隱私研究的本質可歸結為對「噪聲分佈」的優化!
@@ -51,7 +52,13 @@ pip install opacus_dpcr
 ### 三、將科研成果與FATE框架結合
 
 #### 研發現狀
-目前，已將FLDPCR框架與FATE平臺深度整合，發佈了[FLDPCR4FATE項目](https://github.com/imcjp/FLDPCR4FATE)。該項目提供了便捷的一鍵部署機制，方便聯邦學習合作方應用，已在福州大學支持的服務器上展示了實際成果，訪問地址：[https://fate.cityu.mo.cn](https://fate.cityu.mo.cn)。
+目前，已將FLDPCR框架與FATE平臺深度整合，發佈了[FLDPCR4FATE項目](https://github.com/imcjp/FLDPCR4FATE)。該項目提供了便捷的一鍵部署機制，方便聯邦學習合作方應用，已在福州大學支持的服務器上展示了實際成果，訪問地址：[https://fate.cityu.mo.cn](https://fate.cityu.mo.cn)。網站頁面展示如下：
+
+![image](https://github.com/imcjp/FDCT2025/blob/main/figs/fig_fate_web.jpg)
+
+在上述網站上啟動算法後即可在後台看到運行結果，後台網站的訪問地址為 [https://fate.cityu.mo.cn](https://fateboard.cityu.mo.cn)。以下是後台內容展示：
+
+![image](https://github.com/imcjp/FDCT2025/blob/main/figs/fig_fate_board.jpg)
 
 #### 後續戰略規劃
 1. **企業級技術整合挑戰**：將進一步投入研發，解決技術整合的複雜性，推動成果正式融入FATE框架，計劃與微衆銀行或清華大學AIR實驗室開展合作。
@@ -60,9 +67,16 @@ pip install opacus_dpcr
 ### 四、跨境通信技術研發
 
 #### 研發現狀
-跨境通信面臨諸多挑戰，尤其是在保證數據安全和提高數據傳輸效率方面。爲此，開發了“雲隧智聯”子項目，通過安全隧道機制構建專用網絡，保證數據傳輸安全，並在一定程度上提高傳輸效率。
 
-該“雲隧智聯”子項目已投入實際使用，經過測試，在確保數據安全的同時，提升了數據傳輸效率5%-10%，對聯邦學習中的模型傳輸至關重要。訪問地址：[https://sec.cn.caijp.cn/](https://sec.cn.caijp.cn/)
+已初步成功研發了面向跨境通信項目“**雲隧智聯**”。該項目提供了高可靠的保證數據安全傳輸能力，同時提升數據傳輸效率。從而有效解決跨境通信面臨諸多挑戰。
+
+其技術原理在於通過安全隧道機制構建專用網絡，從而提供可證明的數據傳輸安全保證；在隧道傳輸過程中引入數據壓縮機制，實現傳輸效率提升。
+
+經過測試，“**雲隧智聯**”可在確保數據安全的同時提升了數據傳輸效率達5%-10%，有效滿足跨境聯邦學習對數據安全性和傳輸效率的需求。
+
+目前，“**雲隧智聯**”已投入使用，用於支持前期的研發工作，並在和福州大學的合作中發揮關鍵作用。
+
+以下是實際應用的展示：[https://sec.cn.caijp.cn/](https://sec.cn.caijp.cn/)
 
 #### 後續戰略規劃
 由於當前跨境數據傳輸依賴雲計算平臺，且缺乏項目經費支持，現階段只能選擇低配雲服務進行實驗。若獲得後續項目支持，將部署性能更強的雲計算平臺，支持大規模數據安全傳輸，實現跨境聯邦學習的參數模型傳遞。
