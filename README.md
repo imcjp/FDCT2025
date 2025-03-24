@@ -76,7 +76,9 @@ pip install opacus_dpcr
 
 目前，“**雲隧智聯**”已投入使用，用於支持前期的研發工作，並在和福州大學的合作中發揮關鍵作用。
 
-以下是實際應用的展示：[https://sec.cn.caijp.cn/](https://sec.cn.caijp.cn/)
+以下是實際應用的展示：[https://sec.cn.caijp.cn/](https://sec.cn.caijp.cn/)。網站頁面展示如下：
+
+![image](https://github.com/imcjp/FDCT2025/blob/main/figs/fig_sec_conn.jpg)
 
 #### 後續戰略規劃
 由於當前跨境數據傳輸依賴雲計算平臺，且缺乏項目經費支持，現階段只能選擇低配雲服務進行實驗。若獲得後續項目支持，將部署性能更強的雲計算平臺，支持大規模數據安全傳輸，實現跨境聯邦學習的參數模型傳遞。
