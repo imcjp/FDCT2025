@@ -20,6 +20,7 @@
 - [[TDSC 2024](https://ieeexplore.ieee.org/document/10426793)] **Cai Jianping**, Liu Ximeng, Ye Qingqing+, Liu Yang, Wang Yuyang, A Federated Learning Framework Based on Differentially Private Continuous Data Release[J]. IEEE Transactions on Dependable and Secure Computing , 21(5): 4879-4894, DOI: 10.1109/TDSC.2024.3364060. (**CCF A 類, JCR Q1, TOP**)
 - [[TIFS 2024](https://ieeexplore.ieee.org/document/10711967)] **Cai Jianping**, Ye Qingqing+, Haibo Hu, Liu Ximeng, and Yanggeng Fu, Boosting Accuracy of Differentially Private Continuous Data Release for Federated Learning[J]. IEEE Transactions on Information Forensics and Security, 19: 10287-10301, DOI: 10.1109/TIFS.2024.3477325. (**CCF A 類, JCR Q1, TOP**)
 
+**+項目顧問**
 
 這些理論成果的核心貢獻包括：
 - **噪聲分佈的提出**：充分證明的定理 [Thm. 1 in TDSC 2023] 發現大量差分隱私研究的本質可歸結為對「噪聲分佈」的優化!
