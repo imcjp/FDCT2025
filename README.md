@@ -1,4 +1,4 @@
-# FDCT項目《面向粵港澳跨境聯邦學習的差分隱私噪聲優化技術研究》的產業化研發現狀及戰略規劃分析
+# FDCT項目《面向粵港澳跨境聯邦學習的差分隱私噪聲優化技術研究》的產業化研發現狀及戰略規劃
 
 ## A. 項目背景與目標
 
@@ -11,10 +11,10 @@
 
 ## B. 產業化研發現狀及戰略規劃分析
 
-### 一、堅實理論基礎
+### 一、科研成果創新
 
 #### 研發現狀
-本項目在差分隱私和聯邦學習領域取得了顯著的理論成果，已發表三篇信息安全頂級期刊代表作，爲後續技術研發提供了堅實的理論支持：
+本項目在差分隱私和聯邦學習領域取得了顯著的科研成果，已發表三篇信息安全頂級期刊代表作，爲後續技術研發提供了堅實的理論支持：
 
 - [[TDSC 2023]](https://ieeexplore.ieee.org/document/10061543) **Cai Jianping**, Liu Ximeng, Li Jiayin, Kim-Kwang Raymond Choo. Differentially Private Non-Negative Consistent Release for Large-Scale Hierarchical Trees[J]. IEEE Transactions on Dependable and Secure Computing, 2024, 21(1): 388-402, DOI: 10.1109/TDSC.2023.3253520. (**CCF A 類, JCR Q1, TOP**)
 - [[TDSC 2024](https://ieeexplore.ieee.org/document/10426793)] **Cai Jianping**, Liu Ximeng, Ye Qingqing+, Liu Yang, Wang Yuyang, A Federated Learning Framework Based on Differentially Private Continuous Data Release[J]. IEEE Transactions on Dependable and Secure Computing , 21(5): 4879-4894, DOI: 10.1109/TDSC.2024.3364060. (**CCF A 類, JCR Q1, TOP**)
@@ -76,7 +76,7 @@ pip install opacus_dpcr
 
 目前，“**雲隧智聯**”已投入使用，用於支持前期的研發工作，並在和福州大學的合作中發揮關鍵作用。
 
-以下是實際應用的展示：[https://sec.cn.caijp.cn/](https://sec.cn.caijp.cn/)。網站頁面展示如下：
+以下是實際應用的展示：[https://sec.cn.caijp.cn/](https://sec.cn.caijp.cn/)。網站頁面展示如下（部分內容涉及隱私，故加馬賽克）：
 
 ![image](https://github.com/imcjp/FDCT2025/blob/main/figs/fig_sec_conn.jpg)
 
