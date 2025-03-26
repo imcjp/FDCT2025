@@ -52,7 +52,10 @@ pip install opacus_dpcr
 ### 三、將科研成果與FATE框架結合
 
 #### 研發現狀
-目前，已將FLDPCR框架與FATE平臺深度整合，發佈了[FLDPCR4FATE項目](https://github.com/imcjp/FLDPCR4FATE)。該項目提供了便捷的一鍵部署機制，方便聯邦學習合作方應用，已在福州大學支持的服務器上展示了實際成果，訪問地址：[https://fate.cityu.mo.cn](https://fate.cityu.mo.cn)。網站頁面展示如下：
+目前，已將FLDPCR框架與FATE平臺深度整合，發佈了[FLDPCR4FATE項目](https://github.com/imcjp/FLDPCR4FATE)。該項目提供了便捷的一鍵部署機制，方便聯邦學習合作方應用，已在福州大學支持的服務器上展示了實際成果，訪問地址：[https://fate.cityu.mo.cn](https://fate.cityu.mo.cn)。
+這裡提供[演示視頻](https://hk.caijp.cn/caijp/FDCT2025/FLDPCR4FATE.mp4)。
+
+網站頁面展示如下：
 
 ![image](https://github.com/imcjp/FDCT2025/blob/main/figs/fig_fate_web.jpg)
 
